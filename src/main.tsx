@@ -1,0 +1,11 @@
+// main.tsx
+import "modern-normalize/modern-normalize.css";
+import "./index.css";
+import { createRoot } from "react-dom/client";
+import App from "./components/App/App";
+
+createRoot(document.getElementById("root") as HTMLElement).render(<App />);
+
+
+
+
